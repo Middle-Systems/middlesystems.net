@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Secy | MiddleSystems</title>
+  <meta name="description" content="Secy is a software supply-chain security platform that correlates what you declared, built, and deployed, and tells you which risks actually matter.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">Middle<span>Systems</span></a>
+      <nav class="nav" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="products.html" aria-current="page">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero small">
+      <div class="wrap">
+        <span class="tag">In development</span>
+        <h1>Secy</h1>
+        <p class="lead">Software supply-chain security that connects what you declared, what you built, and what's actually running, then tells you which risks matter.</p>
+        <a class="btn btn-light" href="contact.html">Request early access</a>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap two-col">
+        <div>
+          <h2>The problem</h2>
+          <p>Most teams have more vulnerability data than they can use. Scanners flag thousands of CVEs in libraries that may never ship, may not be reachable, or may already be ruled out by a vendor. Meanwhile, the one that's running in production and actively exploited gets lost in the noise.</p>
+          <p>Secy builds a single, correlated picture across the software lifecycle so a finding goes from "exists in a library somewhere" to "running in prod, not mitigated, and known to be exploited."</p>
+        </div>
+        <ul class="checklist">
+          <li>Prioritized findings, not a raw CVE list</li>
+          <li>Source, build, and deployed inventories linked together</li>
+          <li>Drift detection between lifecycle stages</li>
+          <li>Owners inferred from your repos and cloud tags</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="soft">
+      <div class="wrap">
+        <h2>What Secy brings together</h2>
+        <p class="section-intro">Secy ingests the data you already produce and correlates it into one model.</p>
+        <div class="grid">
+          <div class="card">
+            <h3>Bills of materials</h3>
+            <p>CycloneDX and SPDX SBOMs, VEX statements, and CBOMs for cryptographic inventory.</p>
+          </div>
+          <div class="card">
+            <h3>Cloud inventory</h3>
+            <p>AWS, Azure, Kubernetes, and container registries, so you know what's actually deployed.</p>
+          </div>
+          <div class="card">
+            <h3>Code repositories</h3>
+            <p>GitHub integration to tie components back to the repo, commit, and team that owns them.</p>
+          </div>
+          <div class="card">
+            <h3>Threat intelligence</h3>
+            <p>Vulnerability, EPSS, KEV, OSV, malware, and advisory feeds, each configurable per tenant.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="product-card">
+          <h2>Deployment options</h2>
+          <p>Secy is planned for both hosted SaaS and self-hosted deployment, for teams that need their inventory data to stay inside their own environment.</p>
+          <p style="margin-bottom:0">Secy is currently in active development. If you'd like to be an early design partner or get notified at launch, <a href="contact.html">get in touch</a>.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>&copy; <span id="yr">2026</span> MiddleSystems &middot; Kansas City, MO</span>
+      <span><a href="products.html">Products</a><a href="about.html">About</a><a href="contact.html">Contact</a></span>
+    </div>
+  </footer>
+  <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
