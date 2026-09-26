@@ -25,6 +25,21 @@
 
   <main>
     <section class="hero">
+      <svg class="hero-pattern" viewBox="0 0 640 400" preserveAspectRatio="xMaxYMid slice" aria-hidden="true">
+        <g fill="#ffffff">
+          <circle cx="80" cy="60" r="4"/><circle cx="180" cy="40" r="4"/><circle cx="300" cy="90" r="4"/><circle cx="420" cy="50" r="4"/><circle cx="540" cy="100" r="4"/>
+          <circle cx="120" cy="180" r="4"/><circle cx="260" cy="200" r="4"/><circle cx="400" cy="170" r="4"/><circle cx="560" cy="220" r="4"/>
+          <circle cx="60" cy="300" r="4"/><circle cx="200" cy="320" r="4"/><circle cx="340" cy="290" r="4"/><circle cx="480" cy="330" r="4"/><circle cx="600" cy="300" r="4"/>
+        </g>
+        <g stroke="#ffffff" stroke-width="1.5" fill="none">
+          <path d="M80,60 L180,40 L300,90 L420,50 L540,100"/>
+          <path d="M120,180 L260,200 L400,170 L560,220"/>
+          <path d="M60,300 L200,320 L340,290 L480,330 L600,300"/>
+          <path d="M180,40 L260,200" opacity="0.5"/>
+          <path d="M420,50 L400,170" opacity="0.5"/>
+          <path d="M200,320 L260,200" opacity="0.5"/>
+        </g>
+      </svg>
       <div class="wrap">
         <p class="eyebrow">Kansas City, MO</p>
         <h1>Complex systems. Clear connections.</h1>
@@ -40,22 +55,41 @@
         <p class="section-intro">When your systems don't talk to each other, or the native tooling covers most but not all of what you need, the gap gets filled with manual work. We close it.</p>
         <div class="grid">
           <div class="card">
-            <span class="num">01</span>
+            <svg class="icon" viewBox="0 0 200 200" aria-hidden="true">
+              <circle cx="60" cy="100" r="30" fill="#0C447C"/>
+              <path d="M179,100 A34,34 0 1,0 111,100 A34,34 0 1,0 179,100 Z M163,100 A18,18 0 1,1 127,100 A18,18 0 1,1 163,100 Z" fill-rule="evenodd" fill="#0C447C"/>
+              <rect x="84" y="95" width="61" height="10" rx="5" fill="#378ADD"/>
+              <circle cx="145" cy="100" r="7" fill="#378ADD"/>
+            </svg>
             <h3>Integration &amp; middleware</h3>
             <p>Custom APIs and middleware that move data between platforms reliably, like syncing workforce management status into your contact center.</p>
           </div>
           <div class="card">
-            <span class="num">02</span>
+            <svg class="icon" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="4" y="34" width="20" height="20" rx="5"/>
+              <rect x="40" y="34" width="20" height="20" rx="5"/>
+              <path d="M14 34 C14 14, 50 14, 50 30" stroke="#378ADD"/>
+              <path d="M43 24 L50 30 L57 22" stroke="#378ADD" fill="none"/>
+            </svg>
             <h3>Platform migrations</h3>
             <p>Moving to a new platform or consolidating tenants, with custom tooling where the vendor's migration path falls short.</p>
           </div>
           <div class="card">
-            <span class="num">03</span>
+            <svg class="icon" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M32 6 L54 14 V30 C54 45 45 54 32 58 C19 54 10 45 10 30 V14 Z"/>
+              <path d="M22 32 L29 39 L43 24" stroke="#378ADD"/>
+            </svg>
             <h3>Secure SDLC &amp; supply chain</h3>
             <p>Hardening build pipelines, managing SBOMs, and building a vulnerability management process your teams will actually use.</p>
           </div>
           <div class="card">
-            <span class="num">04</span>
+            <svg class="icon" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="8" y="10" width="48" height="10" rx="4"/>
+              <rect x="14" y="27" width="36" height="10" rx="4"/>
+              <rect x="20" y="44" width="24" height="10" rx="4"/>
+              <line x1="32" y1="4" x2="32" y2="60" stroke="#378ADD" stroke-width="3"/>
+              <circle cx="32" cy="60" r="3" fill="#378ADD" stroke="none"/>
+            </svg>
             <h3>Architecture consulting</h3>
             <p>Microservices design, system reviews, and a second opinion from someone who has built and run these systems.</p>
           </div>
@@ -79,6 +113,11 @@
     </section>
 
     <section class="cta-band">
+      <svg class="cta-watermark" viewBox="0 0 200 200" aria-hidden="true">
+        <circle cx="60" cy="100" r="30" fill="#ffffff"/>
+        <path d="M179,100 A34,34 0 1,0 111,100 A34,34 0 1,0 179,100 Z M163,100 A18,18 0 1,1 127,100 A18,18 0 1,1 163,100 Z" fill-rule="evenodd" fill="#ffffff"/>
+        <rect x="84" y="95" width="61" height="10" rx="5" fill="#ffffff"/>
+      </svg>
       <div class="wrap">
         <h2>Have a gap that needs closing?</h2>
         <p>Tell us what's not connecting. We'll tell you honestly whether we can help.</p>
